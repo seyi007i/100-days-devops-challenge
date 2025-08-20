@@ -28,6 +28,8 @@ Copy from Jump host:
 
 scp /tmp/ROOT.war tony@stapp01:/tmp/
 sudo mv /tmp/ROOT.war /usr/share/tomcat/webapps/ROOT.war
+### overwrite the ROOT file
+sudo rm -rf /usr/share/tomcat/webapps/ROOT
 
 
 ### Enable & start Tomcat
